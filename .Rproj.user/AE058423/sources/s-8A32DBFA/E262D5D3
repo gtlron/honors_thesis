@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524706724218.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E262D5D3",
+    "lastKnownWriteTime" : 1524707824,
+    "last_content_update" : 1524707824536,
+    "path" : "~/Desktop/thesis/modify_polity.R",
+    "project_path" : "modify_polity.R",
+    "properties" : {
+        "cursorPosition" : "4,53",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
