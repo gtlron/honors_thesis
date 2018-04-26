@@ -1,119 +1,5 @@
-git add. ..
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mnew file:   .Rhistory[m
-	[32mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[32mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-	[32mnew file:   .Rproj.user/AE058423/pcs/files-pane.pper[m
-	[32mnew file:   .Rproj.user/AE058423/pcs/source-pane.pper[m
-	[32mnew file:   .Rproj.user/AE058423/pcs/source-window.pper[m
-	[32mnew file:   .Rproj.user/AE058423/pcs/windowlayoutstate.pper[m
-	[32mnew file:   .Rproj.user/AE058423/pcs/workbench-pane.pper[m
-	[32mnew file:   .Rproj.user/AE058423/rmd-outputs[m
-	[32mnew file:   .Rproj.user/AE058423/saved_source_markers[m
-	[32mnew file:   .Rproj.user/AE058423/sources/prop/C0FAF6F8[m
-	[32mmodified:   .Rproj.user/AE058423/sources/prop/FF4183C4[m
-	[32mmodified:   .Rproj.user/AE058423/sources/prop/INDEX[m
-	[32mdeleted:    .Rproj.user/AE058423/sources/s-31CAB9DB/745BEE39[m
-	[32mdeleted:    .Rproj.user/AE058423/sources/s-31CAB9DB/F60547CE[m
-	[32mrenamed:    .Rproj.user/AE058423/sources/s-31CAB9DB/B98C40F0-contents -> .Rproj.user/AE058423/sources/s-8A32DBFA/5158F06C-contents[m
-	[32mnew file:   .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2[m
-	[32mrenamed:    .Rproj.user/AE058423/sources/s-31CAB9DB/F60547CE-contents -> .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2-contents[m
-	[32mrenamed:    .Rproj.user/AE058423/sources/s-31CAB9DB/745BEE39-contents -> .Rproj.user/AE058423/sources/s-8A32DBFA/97EB2EA7-contents[m
-	[32mnew file:   .Rproj.user/AE058423/sources/s-8A32DBFA/C416607D-contents[m
-	[32mnew file:   .Rproj.user/AE058423/sources/s-8A32DBFA/F6B8F3E4-contents[m
-	[32mrenamed:    .Rproj.user/AE058423/sources/s-31CAB9DB/lock_file -> .Rproj.user/AE058423/sources/s-8A32DBFA/lock_file[m
-	[32mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[32mrenamed:    democracy.R -> import_fh_polity.R[m
-	[32mnew file:   polity.csv[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git commit -m "I Fi       
-hint: Waiting for your editor to close the file... [?2004h[K[master 19e9aa6] Changed file name from Democracy.R to import_fh_polity.R Created polity.csv for future modification
- 25 files changed, 33500 insertions(+), 58 deletions(-)
- create mode 100644 .Rhistory
- rewrite .Rproj.user/AE058423/console06/INDEX001 (84%)
- create mode 100644 .Rproj.user/AE058423/pcs/files-pane.pper
- create mode 100644 .Rproj.user/AE058423/pcs/source-pane.pper
- create mode 100644 .Rproj.user/AE058423/pcs/source-window.pper
- create mode 100644 .Rproj.user/AE058423/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/AE058423/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/AE058423/rmd-outputs
- create mode 100644 .Rproj.user/AE058423/saved_source_markers
- create mode 100644 .Rproj.user/AE058423/sources/prop/C0FAF6F8
- delete mode 100644 .Rproj.user/AE058423/sources/s-31CAB9DB/745BEE39
- delete mode 100644 .Rproj.user/AE058423/sources/s-31CAB9DB/F60547CE
- rename .Rproj.user/AE058423/sources/{s-31CAB9DB/B98C40F0-contents => s-8A32DBFA/5158F06C-contents} (100%)
- create mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2
- rename .Rproj.user/AE058423/sources/{s-31CAB9DB/F60547CE-contents => s-8A32DBFA/5CF3F3A2-contents} (100%)
- rename .Rproj.user/AE058423/sources/{s-31CAB9DB/745BEE39-contents => s-8A32DBFA/97EB2EA7-contents} (71%)
- create mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/C416607D-contents
- create mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/F6B8F3E4-contents
- rename .Rproj.user/AE058423/sources/{s-31CAB9DB => s-8A32DBFA}/lock_file (100%)
- rename democracy.R => import_fh_polity.R (71%)
- create mode 100644 polity.csv
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git ts  status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
-	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push origin       
-fatal: The current branch master has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin master
-
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push --set-upstream origin master
-Counting objects: 28, done.
-Delta compression using up to 4 threads.
-Compressing objects:   4% (1/23)   Compressing objects:   8% (2/23)   Compressing objects:  13% (3/23)   Compressing objects:  17% (4/23)   Compressing objects:  21% (5/23)   Compressing objects:  26% (6/23)   Compressing objects:  30% (7/23)   Compressing objects:  34% (8/23)   Compressing objects:  39% (9/23)   Compressing objects:  43% (10/23)   Compressing objects:  47% (11/23)   Compressing objects:  52% (12/23)   Compressing objects:  56% (13/23)   Compressing objects:  60% (14/23)   Compressing objects:  65% (15/23)   Compressing objects:  69% (16/23)   Compressing objects:  73% (17/23)   Compressing objects:  78% (18/23)   Compressing objects:  82% (19/23)   Compressing objects:  86% (20/23)   Compressing objects:  91% (21/23)   Compressing objects:  95% (22/23)   Compressing objects: 100% (23/23)   Compressing objects: 100% (23/23), done.
-Writing objects:   3% (1/28)   Writing objects:   7% (2/28)   Writing objects:  10% (3/28)   Writing objects:  14% (4/28)   Writing objects:  17% (5/28)   Writing objects:  21% (6/28)   Writing objects:  25% (7/28)   Writing objects:  28% (8/28)   Writing objects:  32% (9/28)   Writing objects:  35% (10/28)   Writing objects:  39% (11/28)   Writing objects:  42% (12/28)   Writing objects:  46% (13/28)   Writing objects:  50% (14/28)   Writing objects:  53% (15/28)   Writing objects:  57% (16/28)   Writing objects:  60% (17/28)   Writing objects:  64% (18/28)   Writing objects:  67% (19/28)   Writing objects:  71% (20/28)   Writing objects:  75% (21/28)   Writing objects:  78% (22/28)   Writing objects:  82% (23/28)   Writing objects:  85% (24/28)   Writing objects:  89% (25/28)   Writing objects:  92% (26/28)   Writing objects:  96% (27/28)   Writing objects: 100% (28/28)   Writing objects: 100% (28/28), 234.74 KiB | 3.21 MiB/s, done.
-Total 28 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
-To https://github.com/gtlron/honors_thesis.git
-   2011faf..19e9aa6  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git clone https://github.com/gtlron/honors_thesis [Aairbears2-10-142-22-35:thesis GTL$ git clone https://github.com/gtlron/honors_thesi[Ks
-Cloning into 'honors_thesis'...
-remote: Counting objects: 50, done.[K
-remote: Compressing objects:   2% (1/39)   [Kremote: Compressing objects:   5% (2/39)   [Kremote: Compressing objects:   7% (3/39)   [Kremote: Compressing objects:  10% (4/39)   [Kremote: Compressing objects:  12% (5/39)   [Kremote: Compressing objects:  15% (6/39)   [Kremote: Compressing objects:  17% (7/39)   [Kremote: Compressing objects:  20% (8/39)   [Kremote: Compressing objects:  23% (9/39)   [Kremote: Compressing objects:  25% (10/39)   [Kremote: Compressing objects:  28% (11/39)   [Kremote: Compressing objects:  30% (12/39)   [Kremote: Compressing objects:  33% (13/39)   [Kremote: Compressing objects:  35% (14/39)   [Kremote: Compressing objects:  38% (15/39)   [Kremote: Compressing objects:  41% (16/39)   [Kremote: Compressing objects:  43% (17/39)   [Kremote: Compressing objects:  46% (18/39)   [Kremote: Compressing objects:  48% (19/39)   [Kremote: Compressing objects:  51% (20/39)   [Kremote: Compressing objects:  53% (21/39)   [Kremote: Compressing objects:  56% (22/39)   [Kremote: Compressing objects:  58% (23/39)   [Kremote: Compressing objects:  61% (24/39)   [Kremote: Compressing objects:  64% (25/39)   [Kremote: Compressing objects:  66% (26/39)   [Kremote: Compressing objects:  69% (27/39)   [Kremote: Compressing objects:  71% (28/39)   [Kremote: Compressing objects:  74% (29/39)   [Kremote: Compressing objects:  76% (30/39)   [Kremote: Compressing objects:  79% (31/39)   [Kremote: Compressing objects:  82% (32/39)   [Kremote: Compressing objects:  84% (33/39)   [Kremote: Compressing objects:  87% (34/39)   [Kremote: Compressing objects:  89% (35/39)   [Kremote: Compressing objects:  92% (36/39)   [Kremote: Compressing objects:  94% (37/39)   [Kremote: Compressing objects:  97% (38/39)   [Kremote: Compressing objects: 100% (39/39)   [Kremote: Compressing objects: 100% (39/39), done.[K
-Unpacking objects:   2% (1/50)   Unpacking objects:   4% (2/50)   Unpacking objects:   6% (3/50)   Unpacking objects:   8% (4/50)   Unpacking objects:  10% (5/50)   Unpacking objects:  12% (6/50)   Unpacking objects:  14% (7/50)   Unpacking objects:  16% (8/50)   Unpacking objects:  18% (9/50)   Unpacking objects:  20% (10/50)   Unpacking objects:  22% (11/50)   Unpacking objects:  24% (12/50)   Unpacking objects:  26% (13/50)   Unpacking objects:  28% (14/50)   Unpacking objects:  30% (15/50)   Unpacking objects:  32% (16/50)   Unpacking objects:  34% (17/50)   Unpacking objects:  36% (18/50)   Unpacking objects:  38% (19/50)   Unpacking objects:  40% (20/50)   Unpacking objects:  42% (21/50)   Unpacking objects:  44% (22/50)   Unpacking objects:  46% (23/50)   Unpacking objects:  48% (24/50)   Unpacking objects:  50% (25/50)   Unpacking objects:  52% (26/50)   Unpacking objects:  54% (27/50)   Unpacking objects:  56% (28/50)   Unpacking objects:  58% (29/50)   Unpacking objects:  60% (30/50)   Unpacking objects:  62% (31/50)   Unpacking objects:  64% (32/50)   Unpacking objects:  66% (33/50)   remote: Total 50 (delta 4), reused 48 (delta 2), pack-reused 0[K
-Unpacking objects:  68% (34/50)   Unpacking objects:  70% (35/50)   Unpacking objects:  72% (36/50)   Unpacking objects:  74% (37/50)   Unpacking objects:  76% (38/50)   Unpacking objects:  78% (39/50)   Unpacking objects:  80% (40/50)   Unpacking objects:  82% (41/50)   Unpacking objects:  84% (42/50)   Unpacking objects:  86% (43/50)   Unpacking objects:  88% (44/50)   Unpacking objects:  90% (45/50)   Unpacking objects:  92% (46/50)   Unpacking objects:  94% (47/50)   Unpacking objects:  96% (48/50)   Unpacking objects:  98% (49/50)   Unpacking objects: 100% (50/50)   Unpacking objects: 100% (50/50), done.
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
-	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31mhonors_thesis/[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push
-Everything up-to-date
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git status
+bash: /Users/GTL/cs61b-software/adm/login: No such file or directory
+[Kairbears2-10-142-22-35:thesis GTL$ cd    git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -121,180 +7,35 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	[31mmodified:   .Rhistory[m
 	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
 	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/AE058423/sources/prop/INDEX[m
-	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   fh.csv[m
+	[31mmodified:   .Rproj.user/AE058423/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/AE058423/pcs/windowlayoutstate.pper[m
+	[31mmodified:   .Rproj.user/AE058423/pcs/workbench-pane.pper[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/2FDDB91-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5158F06C-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/75035FDA-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/97EB2EA7-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/C416607D-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/C41CEC2E-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/E262D5D3[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/E262D5D3-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/F6B8F3E4-contents[m
+	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/lock_file[m
+	[31mdeleted:    honors_thesis[m
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	[31m.Rproj.user/AE058423/sources/prop/13507ECC[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents[m
-	[31mhonors_thesis/[m
-	[31mmodify_fh.R[m
+	[31m.RData[m
+	[31m.Rproj.user/AE058423/sources/s-4146258A/[m
+	[31mcpdx.csv[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git commit -m "Manually edited fh.csv"
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
-	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/AE058423/sources/prop/INDEX[m
-	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   fh.csv[m
-
-Untracked files:
-	[31m.Rproj.user/AE058423/sources/prop/13507ECC[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents[m
-	[31mhonors_thesis/[m
-	[31mmodify_fh.R[m
-
-no changes added to commit
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push
-Everything up-to-date
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push origin master
-Everything up-to-date
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push --set-upstream origin master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-Everything up-to-date
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git tstua     status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
-	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/AE058423/sources/prop/INDEX[m
-	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   fh.csv[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rproj.user/AE058423/sources/prop/13507ECC[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents[m
-	[31mhonors_thesis/[m
-	[31mmodify_fh.R[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git remote add origin github.com/gtlron/honors_th esis
-fatal: remote origin already exists.
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git pull
-Already up to date.
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git diff
-[?1h=[1mdiff --git a/.Rproj.user/AE058423/console06/83DDD39F b/.Rproj.user/AE058423/console0[m [1m6/83DDD39F[m[m
-[1mindex a5323e0..161c346 100644[m[m
-[1m--- a/.Rproj.user/AE058423/console06/83DDD39F[m[m
-[1m+++ b/.Rproj.user/AE058423/console06/83DDD39F[m[m
-[36m@@ -1 +1,213 @@[m[m
- git add [1m.[0m[m[m
-[32m+[m[32m0;~/Desktop/thesis[7m^G[27mairbears2-10-142-22-35:thesis GTL$ git status[m[41m[7m^M[27m[m[m
-[32m+[m[32mOn branch master[m[41m[7m^M[27m[m[m
-[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
-[32m+[m[32m  (use "git reset HEAD <file>..." to unstage)[m[41m[7m^M[27m[m[m
-[32m+[m[41m[7m^M[27m[m[m
-[32m+[m       [32m[32mnew file:   .Rhistory[m[m[41m[7m^M[27m[m[m
-[32m+[m       [32m[32mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m[m[41m[7m^M[27m[m[m
-:[K[K[K:[K[K[?1l>]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git remote
-origin
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ re  git remote -v
-origin	https://github.com/gtlron/honors_thesis.git (fetch)
-origin	https://github.com/gtlron/honors_thesis.git (push)
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git remote show origin
-* remote origin
-  Fetch URL: https://github.com/gtlron/honors_thesis.git
-  Push  URL: https://github.com/gtlron/honors_thesis.git
-  HEAD branch: master
-  Remote branch:
-    master tracked
-  Local branch configured for 'git pull':
-    master merges with remote master
-  Local ref configured for 'git push':
-    master pushes to master (up to date)
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git remote ls
-error: Unknown subcommand: ls
-usage: git remote [-v | --verbose]
-   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
-   or: git remote rename <old> <new>
-   or: git remote remove <name>
-   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
-   or: git remote [-v | --verbose] show [-n] <name>
-   or: git remote prune [-n | --dry-run] <name>
-   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
-   or: git remote set-branches [--add] <name> <branch>...
-   or: git remote get-url [--push] [--all] <name>
-   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
-   or: git remote set-url --add <name> <newurl>
-   or: git remote set-url --delete <name> <url>
-
-    -v, --verbose         be verbose; must be placed before a subcommand
-
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git fect  tch staging
-fatal: 'staging' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git fect  tch origin staging
-fatal: Couldn't find remote ref staging
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git fetch origin staging                        git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
-	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
-	[31mmodified:   .Rproj.user/AE058423/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/AE058423/sources/prop/INDEX[m
-	[31mdeleted:    .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   fh.csv[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rproj.user/AE058423/sources/prop/13507ECC[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130[m
-	[31m.Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents[m
-	[31mhonors_thesis/[m
-	[31mmodify_fh.R[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git pull
-Already up to date.
 ]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git add .
