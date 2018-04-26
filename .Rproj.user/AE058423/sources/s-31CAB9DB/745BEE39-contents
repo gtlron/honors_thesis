@@ -1,0 +1,7 @@
+setwd("~/Desktop/thesis")
+library(democracyData)
+fh <- download_fh(verbose = FALSE)
+library(countrycode)
+fh$iso <- countrycode(fh$fh_country, "country.name", "iso3c", warn = TRUE)
+polity <- download_polity_annual(verbose = FALSE)
+citation(package = "democracyData")
