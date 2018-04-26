@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524712084510.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7601B89F",
+    "lastKnownWriteTime" : 1524712160,
+    "last_content_update" : 1524712160221,
+    "path" : "~/Desktop/thesis/modify_cnts.R",
+    "project_path" : "modify_cnts.R",
+    "properties" : {
+        "cursorPosition" : "4,67",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
