@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524775547213.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "327C9C11",
+    "lastKnownWriteTime" : 9071880096419151878,
+    "last_content_update" : 1524775547213,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AF9567CE",
+        "caption" : "realgdpgr",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=realgdpgr&cache_key=AF9567CE",
+        "displayedObservations" : 264,
+        "environment" : "",
+        "object" : "realgdpgr",
+        "preview" : 0,
+        "totalObservations" : 264,
+        "variables" : 62
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
