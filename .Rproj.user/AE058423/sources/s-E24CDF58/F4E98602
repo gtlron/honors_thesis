@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524716241370.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "467483739",
+    "id" : "F4E98602",
+    "lastKnownWriteTime" : 1524719245,
+    "last_content_update" : 1524719245370,
+    "path" : "~/Desktop/thesis/modify_debt.R",
+    "project_path" : "modify_debt.R",
+    "properties" : {
+        "cursorPosition" : "8,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

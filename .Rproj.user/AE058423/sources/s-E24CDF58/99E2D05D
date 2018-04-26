@@ -12,11 +12,11 @@
     "path" : "~/Desktop/thesis/modify_deficit.R",
     "project_path" : "modify_deficit.R",
     "properties" : {
-        "cursorPosition" : "0,39",
+        "cursorPosition" : "4,0",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
-    "relative_order" : 2,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
