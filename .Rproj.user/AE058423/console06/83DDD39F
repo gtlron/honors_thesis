@@ -39,3 +39,43 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git add .
+]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git comit -m "added        "Added CPDS.csv"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git comit -m "Added CPDS.csv"m[1@mmit -m "Added CPDS.csv"
+[master c5d7ff7] Added CPDS.csv
+ 26 files changed, 1761 insertions(+), 16518 deletions(-)
+ create mode 100644 .RData
+ rewrite .Rproj.user/AE058423/console06/83DDD39F (96%)
+ rewrite .Rproj.user/AE058423/console06/INDEX001 (84%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-4146258A/14E40133
+ rename .Rproj.user/AE058423/sources/{s-8A32DBFA/2FDDB91-contents => s-4146258A/14E40133-contents} (100%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-4146258A/EC1A46F0
+ rename .Rproj.user/AE058423/sources/{s-8A32DBFA/5158F06C-contents => s-4146258A/EC1A46F0-contents} (100%)
+ rename .Rproj.user/AE058423/sources/{s-8A32DBFA => s-4146258A}/lock_file (100%)
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/49D687E-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/5CF3F3A2-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/62B62956-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/75035FDA-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/7C05650B-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/97EB2EA7-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/C416607D-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/C41CEC2E-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/D1F09130-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/E262D5D3
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/E262D5D3-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-8A32DBFA/F6B8F3E4-contents
+ create mode 100644 cpdx.csv
+ delete mode 160000 honors_thesis
+]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ git push origin master
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  61% (11/18)   Writing objects:  66% (12/18)   Writing objects:  72% (13/18)   Writing objects:  77% (14/18)   Writing objects:  83% (15/18)   Writing objects:  88% (16/18)   Writing objects:  94% (17/18)   Writing objects: 100% (18/18)   Writing objects: 100% (18/18), 609.46 KiB | 4.38 MiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/gtlron/honors_thesis.git
+   22a80d3..c5d7ff7  master -> master
+]0;~/Desktop/thesisairbears2-10-142-22-35:thesis GTL$ 
