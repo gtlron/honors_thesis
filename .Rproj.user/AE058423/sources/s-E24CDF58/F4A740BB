@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524715451575.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F4A740BB",
+    "lastKnownWriteTime" : 4423961856,
+    "last_content_update" : 1524715451575,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E4C12F83",
+        "caption" : "deficit",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=deficit&cache_key=E4C12F83",
+        "displayedObservations" : "1005",
+        "environment" : "",
+        "object" : "deficit",
+        "preview" : "0",
+        "totalObservations" : "1005",
+        "variables" : "8"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
