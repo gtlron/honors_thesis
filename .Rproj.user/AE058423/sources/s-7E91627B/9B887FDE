@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524798433981.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9B887FDE",
+    "lastKnownWriteTime" : 1524703213,
+    "last_content_update" : 1524703213,
+    "path" : "~/Desktop/thesis/import_fh_polity.R",
+    "project_path" : "import_fh_polity.R",
+    "properties" : {
+        "cursorPosition" : "4,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

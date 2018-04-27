@@ -1,1 +1,27 @@
 git add .
+]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ git commit -m "Merged OCED and IMF data"
+[master 4a15623] Merged OCED and IMF data
+ 19 files changed, 1824 insertions(+), 2253 deletions(-)
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/24CE3B6-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/42875536
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/42875536-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/51A374A8
+ rename .Rproj.user/AE058423/sources/s-7E91627B/{31F01183 => 6715CD6E} (60%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/6715CD6E-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/8461DBB4
+ create mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/8461DBB4-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-7E91627B/BECA62D9
+ delete mode 100644 deficit.csv
+ delete mode 100644 imf_deficit_debt.csv
+ create mode 100644 imf_oecd.csv
+ rename worldbank_new.csv => worldbank.csv (100%)
+]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ git push
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
+Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 20.83 KiB | 444.00 KiB/s, done.
+Total 17 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 6 local objects.[K
+To https://github.com/gtlron/honors_thesis.git
+   3860cfc..4a15623  master -> master
+]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ git add .
