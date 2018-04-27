@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524790071315.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42875536",
+    "lastKnownWriteTime" : 3329054165019131910,
+    "last_content_update" : 1524790071315,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "4998278F",
+        "caption" : "IMF",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=IMF&cache_key=4998278F",
+        "displayedObservations" : "1170",
+        "environment" : "",
+        "object" : "IMF",
+        "preview" : "0",
+        "totalObservations" : "1170",
+        "variables" : "9"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
