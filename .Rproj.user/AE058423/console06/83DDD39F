@@ -125,4 +125,5 @@ Untracked files:
 no changes added to commit
 ]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ git push
 Everything up-to-date
-]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ 
+]0;~/Desktop/thesisairbears2-10-142-23-61:thesis GTL$ bash: /Users/GTL/cs61b-software/adm/login: No such file or directory
+git add .
