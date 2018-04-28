@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524803796913.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "47663F50",
+    "lastKnownWriteTime" : 4327125760,
+    "last_content_update" : 1524803796913,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "157BAC59",
+        "caption" : "cpds",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cpds&cache_key=157BAC59",
+        "displayedObservations" : 1614,
+        "environment" : "",
+        "object" : "cpds",
+        "preview" : 0,
+        "totalObservations" : 1614,
+        "variables" : 304
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
