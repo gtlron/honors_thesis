@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524970834209.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "19DF06F4",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1524970834209,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A360926A",
+        "caption" : "cnts",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cnts&cache_key=A360926A",
+        "displayedObservations" : 9884,
+        "environment" : "",
+        "object" : "cnts",
+        "preview" : 0,
+        "totalObservations" : 9884,
+        "variables" : 12
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
