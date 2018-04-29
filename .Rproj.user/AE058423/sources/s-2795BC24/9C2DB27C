@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524976413526.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9C2DB27C",
+    "lastKnownWriteTime" : 140733193388038,
+    "last_content_update" : 1524976413526,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "798BE2D8",
+        "caption" : "econ",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=econ&cache_key=798BE2D8",
+        "displayedObservations" : "9664",
+        "environment" : "",
+        "object" : "econ",
+        "preview" : "0",
+        "totalObservations" : "9664",
+        "variables" : "14"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
