@@ -48,3 +48,11 @@ long$iso <- countrycode(long$cown, "cown", "iso3c", warn = TRUE)
 write.csv(short, "s_fh_cpds.csv")
 write.csv(long, "l_fh_cpds.csv")
 
+# Finally, merge econ and politics data together
+econ <- read.csv("econ.csv")
+short <- merge(econ, short, by=c("cown","year"), sort=TRUE)
+long <- merge(econ, long, by=c("cown","year"), all = TRUE, sort=TRUE)
+short$country <- countrycode(short$cown, "cown", "country.name", warn = TRUE)
+short$iso <- countrycode(short$cown, "cown", "iso3c", warn = TRUE)
+write.csv(short, "small.csv")
+
