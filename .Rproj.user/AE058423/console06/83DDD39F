@@ -60,3 +60,50 @@ To https://github.com/gtlron/honors_thesis.git
    1ef1fe0..36f46bf  master -> master
 ]0;~/Desktop/thesisairbears2-10-142-22-81:thesis GTL$ bash: /Users/GTL/cs61b-software/adm/login: No such file or directory
 a git add .
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git commit -m "Finsihi    ish hed joi   meer  rging all datasets" "i"n"t" [Airbears2-10-142-21-97:thesis GTL$ git commit -m "Finished merging all datasets into"" "s"a"m"[1P"[1P"m"a"l"l" "a"n"d" "l"a"r"g"e" "s"a"m"p"l"e"s""
+[master 4d81b44] Finished merging all datasets into small and large samples
+ 26 files changed, 8396 insertions(+), 8382 deletions(-)
+ rewrite .Rproj.user/AE058423/console06/INDEX001 (85%)
+ delete mode 100644 .Rproj.user/AE058423/sources/per/t/9C2DB27C
+ delete mode 100644 .Rproj.user/AE058423/sources/per/t/A9A6AAA2
+ delete mode 100644 .Rproj.user/AE058423/sources/per/t/E055770A
+ delete mode 100644 .Rproj.user/AE058423/sources/per/t/E79DDC72
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/130A1329
+ rename .Rproj.user/AE058423/sources/{per/t/9C2DB27C-contents => s-59137E87/130A1329-contents} (100%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/79366CDA
+ rename .Rproj.user/AE058423/sources/{per/t/E79DDC72-contents => s-59137E87/79366CDA-contents} (100%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/7AC8EE2C
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/7AC8EE2C-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/9C2DB27C-contents
+ rename .Rproj.user/AE058423/sources/{per/t => s-59137E87}/A9A6AAA2-contents (100%)
+ rename .Rproj.user/AE058423/sources/{per/t => s-59137E87}/E055770A-contents (100%)
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/E79DDC72-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/E7EA7E3D
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/E7EA7E3D-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/lock_file
+ delete mode 100644 .Rproj.user/AE058423/viewer-cache/3BA5DC08.Rdata
+ delete mode 100644 .Rproj.user/AE058423/viewer-cache/798BE2D8.Rdata
+ delete mode 100644 country region income group.csv
+ rewrite large.csv (77%)
+ rewrite small.csv (93%)
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git push
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/18)   Writing objects:  11% (2/18)   Writing objects:  16% (3/18)   Writing objects:  22% (4/18)   Writing objects:  27% (5/18)   Writing objects:  33% (6/18)   Writing objects:  38% (7/18)   Writing objects:  44% (8/18)   Writing objects:  50% (9/18)   Writing objects:  55% (10/18)   Writing objects:  61% (11/18)   Writing objects:  66% (12/18)   Writing objects:  77% (14/18)   Writing objects:  83% (15/18)   Writing objects:  88% (16/18)   Writing objects:  94% (17/18)   Writing objects: 100% (18/18)   Writing objects: 100% (18/18), 50.46 KiB | 671.00 KiB/s, done.
+Total 18 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  54% (6/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 8 local objects.[K
+To https://github.com/gtlron/honors_thesis.git
+   28345c9..4d81b44  master -> master
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git commit -m "TRI  rimmed large and small dataset"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F[m
+	[31mmodified:   .Rproj.user/AE058423/console06/83DDD39F.env[m
+	[31mmodified:   large.csv[m
+	[31mmodified:   small.csv[m
+
+no changes added to commit
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git add .
