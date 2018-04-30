@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525049444148.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "86C0BEC1",
+    "lastKnownWriteTime" : 1525053552,
+    "last_content_update" : 1525053552117,
+    "path" : "~/Desktop/summary_graph.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "5,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
