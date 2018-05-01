@@ -28,3 +28,42 @@ remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4) 
 To https://github.com/gtlron/honors_thesis.git
    3054e9b..ee3da5c  master -> master
 ]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git add .
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git commit -m "Started writing thesis."
+[master ec95311] Started writing thesis.
+ 29 files changed, 562 insertions(+), 31 deletions(-)
+ create mode 100644 .Rproj.user/AE058423/build_options
+ rewrite .Rproj.user/AE058423/console06/83DDD39F (100%)
+ create mode 100644 .Rproj.user/AE058423/sources/prop/19EDB89C
+ create mode 100644 .Rproj.user/AE058423/sources/prop/5A825FA1
+ create mode 100644 .Rproj.user/AE058423/sources/prop/632DB325
+ create mode 100644 .Rproj.user/AE058423/sources/prop/9E4B5646
+ create mode 100644 .Rproj.user/AE058423/sources/prop/AED6C28D
+ create mode 100644 .Rproj.user/AE058423/sources/prop/B520BF3F
+ create mode 100644 .Rproj.user/AE058423/sources/prop/F9DF977F
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/104FD296-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/6E65D033-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-59137E87/7AC8EE2C
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/8075AE59
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/8075AE59-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/86C0BEC1
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/86C0BEC1-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/8755ECD-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/9B9C1329-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/A59ED7ED-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/A91757C-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/B95E6C51-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/E8E37DDC-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-59137E87/EE5383A9-contents
+ create mode 100644 .Rproj.user/shared/notebooks/5C89D2F4-Untitled/1/s/chunks.json
+ create mode 100644 Appendix table 2.pages
+ create mode 100644 thesis.pages
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ git push
+Counting objects: 39, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/35)   Compressing objects:   5% (2/35)   Compressing objects:   8% (3/35)   Compressing objects:  11% (4/35)   Compressing objects:  14% (5/35)   Compressing objects:  17% (6/35)   Compressing objects:  20% (7/35)   Compressing objects:  22% (8/35)   Compressing objects:  25% (9/35)   Compressing objects:  28% (10/35)   Compressing objects:  31% (11/35)   Compressing objects:  34% (12/35)   Compressing objects:  37% (13/35)   Compressing objects:  40% (14/35)   Compressing objects:  42% (15/35)   Compressing objects:  45% (16/35)   Compressing objects:  48% (17/35)   Compressing objects:  51% (18/35)   Compressing objects:  54% (19/35)   Compressing objects:  57% (20/35)   Compressing objects:  60% (21/35)   Compressing objects:  62% (22/35)   Compressing objects:  65% (23/35)   Compressing objects:  68% (24/35)   Compressing objects:  71% (25/35)   Compressing objects:  74% (26/35)   Compressing objects:  77% (27/35)   Compressing objects:  80% (28/35)   Compressing objects:  82% (29/35)   Compressing objects:  85% (30/35)   Compressing objects:  88% (31/35)   Compressing objects:  91% (32/35)   Compressing objects:  94% (33/35)   Compressing objects:  97% (34/35)   Compressing objects: 100% (35/35)   Compressing objects: 100% (35/35), done.
+Writing objects:   2% (1/39)   Writing objects:   5% (2/39)   Writing objects:   7% (3/39)   Writing objects:  10% (4/39)   Writing objects:  12% (5/39)   Writing objects:  15% (6/39)   Writing objects:  17% (7/39)   Writing objects:  20% (8/39)   Writing objects:  23% (9/39)   Writing objects:  25% (10/39)   Writing objects:  28% (11/39)   Writing objects:  30% (12/39)   Writing objects:  33% (13/39)   Writing objects:  35% (14/39)   Writing objects:  38% (15/39)   Writing objects:  41% (16/39)   Writing objects:  43% (17/39)   Writing objects:  46% (18/39)   Writing objects:  48% (19/39)   Writing objects:  51% (20/39)   Writing objects:  58% (23/39)   Writing objects:  61% (24/39)   Writing objects:  64% (25/39)   Writing objects:  66% (26/39)   Writing objects:  71% (28/39)   Writing objects:  74% (29/39)   Writing objects:  76% (30/39)   Writing objects:  79% (31/39)   Writing objects:  82% (32/39)   Writing objects:  84% (33/39)   Writing objects:  87% (34/39)   Writing objects:  89% (35/39)   Writing objects:  92% (36/39)   Writing objects:  94% (37/39)   Writing objects:  97% (38/39)   Writing objects: 100% (39/39)   Writing objects: 100% (39/39), 320.06 KiB | 4.85 MiB/s, done.
+Total 39 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)   [Kremote: Resolving deltas:  33% (3/9)   [Kremote: Resolving deltas:  44% (4/9)   [Kremote: Resolving deltas:  55% (5/9)   [Kremote: Resolving deltas:  66% (6/9)   [Kremote: Resolving deltas:  77% (7/9)   [Kremote: Resolving deltas:  88% (8/9)   [Kremote: Resolving deltas: 100% (9/9)   [Kremote: Resolving deltas: 100% (9/9), completed with 5 local objects.[K
+To https://github.com/gtlron/honors_thesis.git
+   ee3da5c..ec95311  master -> master
+]0;~/Desktop/thesisairbears2-10-142-21-97:thesis GTL$ 
