@@ -1,0 +1,368 @@
+\documentclass{article}
+\usepackage{dcolumn}
+\usepackage{rotating}
+\usepackage{tabularx}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+% Table regressing economic growth on Polity
+\begin{sidewaystable}[!htbp] \centering 
+  \pagenumbering{gobble}
+  \caption{Fixed Effects Results Regressing Economic Growth on Polity Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual GDP Growth} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Previous GDP Growth & 0.380^{***} & 0.317^{***} & 0.302^{***} & 0.345^{***} & 0.326^{***} & 0.319^{***} \\ 
+  & (0.048) & (0.051) & (0.053) & (0.034) & (0.034) & (0.033) \\ 
+  & & & & & & \\ 
+ Polity Score & -0.617^{**} & 1.123^{***} & 0.839^{*} & 0.751^{*} & 0.880^{**} & 0.602 \\ 
+  & (0.277) & (0.393) & (0.438) & (0.426) & (0.430) & (1.648) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & -0.101 & -0.325 & -0.305 \\ 
+  &  &  &  & (0.297) & (0.312) & (0.357) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -7.581^{***} & -7.629^{***} \\ 
+  &  &  &  &  & (1.843) & (1.830) \\ 
+  & & & & & & \\ 
+ Constant & 2.642^{***} &  &  &  &  &  \\ 
+  & (0.299) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,495} & \multicolumn{1}{c}{5,495} & \multicolumn{1}{c}{5,486} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.150} & \multicolumn{1}{c}{0.104} & \multicolumn{1}{c}{0.093} & \multicolumn{1}{c}{0.118} & \multicolumn{1}{c}{0.137} & \multicolumn{1}{c}{0.134} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.150} & \multicolumn{1}{c}{0.078} & \multicolumn{1}{c}{0.060} & \multicolumn{1}{c}{0.085} & \multicolumn{1}{c}{0.104} & \multicolumn{1}{c}{0.101} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is annual GDP growth rate. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Table regressing economic growth on Freedom House
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Economic Growth on Freedom House Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual GDP Growth} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Previous GDP Growth & 0.380^{***} & 0.317^{***} & 0.302^{***} & 0.345^{***} & 0.326^{***} & 0.319^{***} \\ 
+  & (0.048) & (0.051) & (0.053) & (0.034) & (0.034) & (0.033) \\ 
+  & & & & & & \\ 
+ Freedom House Score & -0.617^{**} & 1.123^{***} & 0.839^{*} & 0.751^{*} & 0.880^{**} & 0.602 \\ 
+  & (0.277) & (0.393) & (0.438) & (0.426) & (0.430) & (1.648) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & -0.101 & -0.325 & -0.305 \\ 
+  &  &  &  & (0.297) & (0.312) & (0.357) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -7.581^{***} & -7.629^{***} \\ 
+  &  &  &  &  & (1.843) & (1.830) \\ 
+  & & & & & & \\ 
+ Constant & 2.642^{***} &  &  &  &  &  \\ 
+  & (0.299) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,574} & \multicolumn{1}{c}{5,495} & \multicolumn{1}{c}{5,495} & \multicolumn{1}{c}{5,486} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.150} & \multicolumn{1}{c}{0.104} & \multicolumn{1}{c}{0.093} & \multicolumn{1}{c}{0.118} & \multicolumn{1}{c}{0.137} & \multicolumn{1}{c}{0.134} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.150} & \multicolumn{1}{c}{0.078} & \multicolumn{1}{c}{0.060} & \multicolumn{1}{c}{0.085} & \multicolumn{1}{c}{0.104} & \multicolumn{1}{c}{0.101} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is annual GDP growth rate. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Table regressing economic growth on UDS
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Economic Growth on Unified Democracy Scores} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual GDP Growth} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Previous GDP Growth & 0.362^{***} & 0.291^{***} & 0.277^{***} & 0.314^{***} & 0.296^{***} & 0.282^{***} \\ 
+  & (0.056) & (0.058) & (0.060) & (0.039) & (0.039) & (0.040) \\ 
+  & & & & & & \\ 
+ Unified Democracy Scores & -0.270^{**} & 0.739^{***} & 0.548^{**} & 0.514^{**} & 0.513^{**} & 0.409 \\ 
+  & (0.110) & (0.227) & (0.235) & (0.230) & (0.227) & (0.856) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & -0.262 & -0.486 & -0.311 \\ 
+  &  &  &  & (0.296) & (0.337) & (0.342) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -7.568^{***} & -7.619^{***} \\ 
+  &  &  &  &  & (2.141) & (2.149) \\ 
+  & & & & & & \\ 
+ Constant & 2.436^{***} &  &  &  &  &  \\ 
+  & (0.239) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{5,223} & \multicolumn{1}{c}{5,223} & \multicolumn{1}{c}{5,223} & \multicolumn{1}{c}{5,143} & \multicolumn{1}{c}{4,951} & \multicolumn{1}{c}{4,938} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.138} & \multicolumn{1}{c}{0.090} & \multicolumn{1}{c}{0.080} & \multicolumn{1}{c}{0.100} & \multicolumn{1}{c}{0.117} & \multicolumn{1}{c}{0.111} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.138} & \multicolumn{1}{c}{0.060} & \multicolumn{1}{c}{0.043} & \multicolumn{1}{c}{0.063} & \multicolumn{1}{c}{0.080} & \multicolumn{1}{c}{0.075} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is annual GDP growth rate. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Regressing debt accumulation on polity
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Debt Accumulation on Polity Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Change in Debt-GDP Ratio from Last Year} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Polity Score & 1.141 & 9.534^{*} & 6.910 & 7.373 & 7.590 & -6.242 \\ 
+  & (0.905) & (5.034) & (4.838) & (5.156) & (4.723) & (19.326) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & 0.156 & 0.332 & 0.885 \\ 
+  &  &  &  & (2.020) & (1.853) & (1.714) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & 26.442^{*} & 26.275^{*} \\ 
+  &  &  &  &  & (14.153) & (14.838) \\ 
+  & & & & & & \\ 
+ Constant & -0.337 &  &  &  &  &  \\ 
+  & (0.814) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{2,264} & \multicolumn{1}{c}{2,264} & \multicolumn{1}{c}{2,264} & \multicolumn{1}{c}{2,262} & \multicolumn{1}{c}{2,262} & \multicolumn{1}{c}{2,259} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.006} & \multicolumn{1}{c}{0.003} & \multicolumn{1}{c}{0.003} & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.023} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.0004} & \multicolumn{1}{c}{-0.054} & \multicolumn{1}{c}{-0.078} & \multicolumn{1}{c}{-0.078} & \multicolumn{1}{c}{-0.046} & \multicolumn{1}{c}{-0.057} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is the change in debt-GDP ratio from last year. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Regressing debt accumulation on freedom house
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Debt Accumulation on Freedom House Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Change in Debt-GDP Ratio from Last Year} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Freedom House Score & 1.033 & 4.735 & 4.223 & 3.124 & 4.837 & -8.766 \\ 
+  & (0.634) & (4.471) & (4.289) & (4.374) & (4.303) & (27.047) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & 0.534 & 0.518 & 0.911 \\ 
+  &  &  &  & (1.843) & (1.821) & (1.697) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & 26.485^{*} & 25.385^{*} \\ 
+  &  &  &  &  & (14.369) & (13.731) \\ 
+  & & & & & & \\ 
+ Constant & -0.111 &  &  &  &  &  \\ 
+  & (0.542) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{2,491} & \multicolumn{1}{c}{2,491} & \multicolumn{1}{c}{2,491} & \multicolumn{1}{c}{2,379} & \multicolumn{1}{c}{2,249} & \multicolumn{1}{c}{2,246} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.031} & \multicolumn{1}{c}{0.024} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.0005} & \multicolumn{1}{c}{-0.057} & \multicolumn{1}{c}{-0.076} & \multicolumn{1}{c}{-0.080} & \multicolumn{1}{c}{-0.050} & \multicolumn{1}{c}{-0.057} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is the change in debt-GDP ratio from last year. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Regressing debt accumulation on uds
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Debt Accumulation on Unified Democracy Scores} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Change in Debt-GDP Ratio from Last Year} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Unified Democracy Scores & 0.953^{***} & 2.245^{*} & 1.955 & 2.071 & 1.650 & -13.207 \\ 
+  & (0.289) & (1.338) & (1.383) & (1.525) & (1.326) & (12.059) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & -1.238 & -0.834 & 0.827 \\ 
+  &  &  &  & (2.494) & (2.370) & (2.190) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & 34.835^{*} & 35.636^{*} \\ 
+  &  &  &  &  & (17.805) & (19.428) \\ 
+  & & & & & & \\ 
+ Constant & -0.479 &  &  &  &  &  \\ 
+  & (0.401) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{1,909} & \multicolumn{1}{c}{1,909} & \multicolumn{1}{c}{1,909} & \multicolumn{1}{c}{1,909} & \multicolumn{1}{c}{1,802} & \multicolumn{1}{c}{1,801} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.006} & \multicolumn{1}{c}{0.002} & \multicolumn{1}{c}{0.001} & \multicolumn{1}{c}{0.002} & \multicolumn{1}{c}{0.046} & \multicolumn{1}{c}{0.014} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.005} & \multicolumn{1}{c}{-0.075} & \multicolumn{1}{c}{-0.098} & \multicolumn{1}{c}{-0.098} & \multicolumn{1}{c}{-0.053} & \multicolumn{1}{c}{-0.088} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is the change in debt-GDP ratio from last year. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+%Regressing budget deficit on polity
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Budget Deficit on Polity Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual Budget Deficit} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Polity Score & -3.607^{**} & -4.783 & -5.798 & -5.034^{**} & -5.447^{**} & 0.942 \\ 
+  & (1.707) & (5.520) & (4.926) & (2.494) & (2.649) & (5.000) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & 2.559^{***} & 2.553^{***} & 1.995^{**} \\ 
+  &  &  &  & (0.751) & (0.742) & (0.860) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -3.146^{*} & -2.395 \\ 
+  &  &  &  &  & (1.605) & (1.921) \\ 
+  & & & & & & \\ 
+ Constant & 0.629 &  &  &  &  &  \\ 
+  & (1.530) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{1,934} & \multicolumn{1}{c}{1,934} & \multicolumn{1}{c}{1,934} & \multicolumn{1}{c}{1,927} & \multicolumn{1}{c}{1,927} & \multicolumn{1}{c}{1,925} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.020} & \multicolumn{1}{c}{0.003} & \multicolumn{1}{c}{0.005} & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{0.022} & \multicolumn{1}{c}{0.011} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.019} & \multicolumn{1}{c}{-0.057} & \multicolumn{1}{c}{-0.080} & \multicolumn{1}{c}{-0.066} & \multicolumn{1}{c}{-0.063} & \multicolumn{1}{c}{-0.075} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is  governemnt annual budget deficit. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Regressing budget deficit on FH
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Budget Deficit on Freedom House Measure of Democracy} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual Budget Deficit} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Freedom House Score & -0.333 & 7.257^{**} & 4.135 & -0.999 & -1.496 & 0.672 \\ 
+  & (1.504) & (3.169) & (3.248) & (2.789) & (2.818) & (6.976) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & 2.285^{***} & 2.164^{***} & 1.997^{**} \\ 
+  &  &  &  & (0.741) & (0.734) & (0.886) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -2.480 & -2.165 \\ 
+  &  &  &  &  & (1.932) & (2.108) \\ 
+  & & & & & & \\ 
+ Constant & -2.119^{*} &  &  &  &  &  \\ 
+  & (1.261) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{2,090} & \multicolumn{1}{c}{2,090} & \multicolumn{1}{c}{2,090} & \multicolumn{1}{c}{1,972} & \multicolumn{1}{c}{1,909} & \multicolumn{1}{c}{1,907} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.0002} & \multicolumn{1}{c}{0.007} & \multicolumn{1}{c}{0.002} & \multicolumn{1}{c}{0.013} & \multicolumn{1}{c}{0.014} & \multicolumn{1}{c}{0.013} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{-0.0003} & \multicolumn{1}{c}{-0.050} & \multicolumn{1}{c}{-0.077} & \multicolumn{1}{c}{-0.070} & \multicolumn{1}{c}{-0.072} & \multicolumn{1}{c}{-0.073} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is governemnt annual budget deficit. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+% Regressing budget deficit on UDS
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{Fixed Effects Results Regressing Budget Deficit on Unified Democracy Scores} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{Large Sample, 1975-2017} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{Annual Budget Deficit} \\ 
+ & \multicolumn{1}{c}{Pooled OLS} & \multicolumn{4}{c}{Fixed Effects} & \multicolumn{1}{c}{IV} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)}\\ 
+\hline \\[-1.8ex] 
+ Unified Democracy Scores & -1.062^{**} & 0.347 & -0.369 & -1.595^{*} & -1.558^{*} & 1.227 \\ 
+  & (0.525) & (0.839) & (0.885) & (0.819) & (0.818) & (3.193) \\ 
+  & & & & & & \\ 
+ log GDP per capita &  &  &  & 3.276^{***} & 2.990^{***} & 2.165 \\ 
+  &  &  &  & (0.885) & (0.838) & (1.467) \\ 
+  & & & & & & \\ 
+ State Failure &  &  &  &  & -3.830 & -3.700 \\ 
+  &  &  &  &  & (2.524) & (2.879) \\ 
+  & & & & & & \\ 
+ Constant & -1.021^{*} &  &  &  &  &  \\ 
+  & (0.553) &  &  &  &  &  \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Country dummy? & No & Yes & Yes & Yes & Yes & Yes \\ 
+Year dummy? & No & No & Yes & Yes & Yes & Yes \\ 
+Observations & \multicolumn{1}{c}{1,551} & \multicolumn{1}{c}{1,551} & \multicolumn{1}{c}{1,551} & \multicolumn{1}{c}{1,550} & \multicolumn{1}{c}{1,494} & \multicolumn{1}{c}{1,494} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.028} & \multicolumn{1}{c}{0.0004} & \multicolumn{1}{c}{0.0004} & \multicolumn{1}{c}{0.031} & \multicolumn{1}{c}{0.031} & \multicolumn{1}{c}{0.011} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.028} & \multicolumn{1}{c}{-0.078} & \multicolumn{1}{c}{-0.107} & \multicolumn{1}{c}{-0.074} & \multicolumn{1}{c}{-0.077} & \multicolumn{1}{c}{-0.099} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{p{16cm}}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{6}{p{16cm}}{Cross-sectional OLS regression in column 1. Fixed effects OLS regressions in columns 2 to 5, and IV regression with legislative election competitiveness as instrument in column 6. Robust standard errors clustered by country are reported in parentheses. Country dummies are included in regressions 2 to 6, and year dummies are included in regressions 3 to 6. Dependent variable is governemnt annual budget deficit. Covariates are added in regressions 4 through 6. Base sample is an unbalanced panel, 1975 to 2017. For detailed data definitions and sources, see table for descriptive statistics and Appendix Table 1.} \\ 
+\end{tabular} 
+\end{sidewaystable} 
+
+\end{document}

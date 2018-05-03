@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525337599205.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CF846072",
+    "lastKnownWriteTime" : 1525343867,
+    "last_content_update" : 1525343867247,
+    "path" : "~/Desktop/thesis/Tables.Rnw",
+    "project_path" : "Tables.Rnw",
+    "properties" : {
+        "cursorPosition" : "330,24",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sweave"
+}

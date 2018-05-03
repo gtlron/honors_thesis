@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525344098760.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4AE14F0B",
+    "lastKnownWriteTime" : 1525344131,
+    "last_content_update" : 1525344131498,
+    "path" : "~/Desktop/thesis/gdpgr_polity.R",
+    "project_path" : "gdpgr_polity.R",
+    "properties" : {
+        "cursorPosition" : "117,20",
+        "scrollLine" : "115",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
