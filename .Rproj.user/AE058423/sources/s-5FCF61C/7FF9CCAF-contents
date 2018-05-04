@@ -1,0 +1,9 @@
+setwd("~/Desktop")
+
+large <- read.csv("large.csv")
+small <- read.csv("small.csv")
+
+# Produce summary statistics table with Stargazer
+library(stargazer)
+stargazer(large, title="Summary Statistics, Large Sample")
+stargazer(small, title="Summary Statistics, Small Sample")

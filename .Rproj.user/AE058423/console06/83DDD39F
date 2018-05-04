@@ -113,3 +113,63 @@ To https://github.com/gtlron/honors_thesis.git
    226f961..8c8cdad  master -> master
 ]0;~/Desktop/thesisTianlangAir:thesis GTL$ bash: /Users/GTL/cs61b-software/adm/login: No such file or directory
 [KTianlangAir:thesis GTL$ git add .
+]0;~/Desktop/thesisTianlangAir:thesis GTL$ git commit -m "Ran regression on f fiscal outcomes on dm emocracy scores."
+[master f7c1cea] Ran regression of fiscal outcomes on democracy scores.
+ 59 files changed, 10943 insertions(+), 8758 deletions(-)
+ rewrite .RData (99%)
+ rewrite .Rhistory (99%)
+ rewrite .Rproj.user/AE058423/console06/INDEX001 (85%)
+ create mode 100644 .Rproj.user/AE058423/sources/prop/24B137A4
+ create mode 100644 .Rproj.user/AE058423/sources/prop/5EA6DE92
+ create mode 100644 .Rproj.user/AE058423/sources/prop/675332BF
+ create mode 100644 .Rproj.user/AE058423/sources/prop/69E22002
+ create mode 100644 .Rproj.user/AE058423/sources/prop/90253352
+ create mode 100644 .Rproj.user/AE058423/sources/prop/D7F6A835
+ create mode 100644 .Rproj.user/AE058423/sources/prop/F31999D5
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/270EDA5B
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/270EDA5B-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/2A1C84E1-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/8075AE59
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/8075AE59-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/86C0BEC1
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/86C0BEC1-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/CA8AD04A-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/ED7A0199
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/ED7A0199-contents
+ delete mode 100644 .Rproj.user/AE058423/sources/s-112AC373/F19AF844-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/4AE14F0B
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/4AE14F0B-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/7F2E1DF8
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/7F2E1DF8-contents
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/CF846072
+ create mode 100644 .Rproj.user/AE058423/sources/s-5FCF61C/CF846072-contents
+ rename .Rproj.user/AE058423/sources/{s-112AC373 => s-5FCF61C}/lock_file (100%)
+ create mode 100644 .Rproj.user/shared/notebooks/357F08C0-Untitled/1/s/chunks.json
+ delete mode 100644 .Rproj.user/shared/notebooks/5C89D2F4-Untitled/1/s/chunks.json
+ rewrite Data.pages (82%)
+ rewrite Literature review.pages (81%)
+ create mode 100644 Table 1.html
+ create mode 100644 Table 2.html
+ create mode 100644 Table 3.html
+ create mode 100644 Tables-concordance.tex
+ create mode 100644 Tables.Rnw
+ create mode 100644 Tables.aux
+ create mode 100644 Tables.log
+ create mode 100644 Tables.pdf
+ create mode 100644 Tables.synctex.gz
+ create mode 100644 Tables.tex
+ create mode 100644 deficit_polity.R
+ create mode 100644 deltadebt_polity.R
+ create mode 100644 gdpgr_polity.R
+ rewrite large.csv (75%)
+ rewrite small.csv (92%)
+]0;~/Desktop/thesisTianlangAir:thesis GTL$ git push
+Counting objects: 55, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/50)   Compressing objects:   4% (2/50)   Compressing objects:   6% (3/50)   Compressing objects:   8% (4/50)   Compressing objects:  10% (5/50)   Compressing objects:  12% (6/50)   Compressing objects:  14% (7/50)   Compressing objects:  16% (8/50)   Compressing objects:  18% (9/50)   Compressing objects:  20% (10/50)   Compressing objects:  22% (11/50)   Compressing objects:  24% (12/50)   Compressing objects:  26% (13/50)   Compressing objects:  28% (14/50)   Compressing objects:  30% (15/50)   Compressing objects:  32% (16/50)   Compressing objects:  34% (17/50)   Compressing objects:  36% (18/50)   Compressing objects:  38% (19/50)   Compressing objects:  40% (20/50)   Compressing objects:  42% (21/50)   Compressing objects:  44% (22/50)   Compressing objects:  46% (23/50)   Compressing objects:  48% (24/50)   Compressing objects:  50% (25/50)   Compressing objects:  52% (26/50)   Compressing objects:  54% (27/50)   Compressing objects:  56% (28/50)   Compressing objects:  58% (29/50)   Compressing objects:  60% (30/50)   Compressing objects:  62% (31/50)   Compressing objects:  64% (32/50)   Compressing objects:  66% (33/50)   Compressing objects:  68% (34/50)   Compressing objects:  70% (35/50)   Compressing objects:  72% (36/50)   Compressing objects:  74% (37/50)   Compressing objects:  76% (38/50)   Compressing objects:  78% (39/50)   Compressing objects:  80% (40/50)   Compressing objects:  82% (41/50)   Compressing objects:  84% (42/50)   Compressing objects:  86% (43/50)   Compressing objects:  88% (44/50)   Compressing objects:  90% (45/50)   Compressing objects:  92% (46/50)   Compressing objects:  94% (47/50)   Compressing objects:  96% (48/50)   Compressing objects:  98% (49/50)   Compressing objects: 100% (50/50)   Compressing objects: 100% (50/50), done.
+Writing objects:   1% (1/55)   Writing objects:   3% (2/55)   Writing objects:   5% (3/55)   Writing objects:   7% (4/55)   Writing objects:   9% (5/55)   Writing objects:  10% (6/55)   Writing objects:  12% (7/55)   Writing objects:  14% (8/55)   Writing objects:  16% (9/55)   Writing objects:  18% (10/55)   Writing objects:  20% (11/55)   Writing objects:  21% (12/55)   Writing objects:  23% (13/55)   Writing objects:  25% (14/55)   Writing objects:  27% (15/55)   Writing objects:  29% (16/55)   Writing objects:  30% (17/55)   Writing objects:  32% (18/55)   Writing objects:  34% (19/55)   Writing objects:  36% (20/55)   Writing objects:  38% (21/55)   Writing objects:  40% (22/55)   Writing objects:  41% (23/55)   Writing objects:  43% (24/55)   Writing objects:  45% (25/55)   Writing objects:  47% (26/55)   Writing objects:  49% (27/55)   Writing objects:  50% (28/55)   Writing objects:  52% (29/55)   Writing objects:  54% (30/55)   Writing objects:  56% (31/55)   Writing objects:  60% (33/55)   Writing objects:  61% (34/55)   Writing objects:  63% (35/55)   Writing objects:  65% (36/55)   Writing objects:  67% (37/55)   Writing objects:  69% (38/55)   Writing objects:  70% (39/55)   Writing objects:  72% (40/55)   Writing objects:  74% (41/55)   Writing objects:  76% (42/55)   Writing objects:  78% (43/55)   Writing objects:  81% (45/55)   Writing objects:  83% (46/55)   Writing objects:  85% (47/55)   Writing objects:  87% (48/55)   Writing objects:  89% (49/55)   Writing objects:  90% (50/55)   Writing objects:  92% (51/55)   Writing objects:  94% (52/55)   Writing objects:  96% (53/55), 1.07 MiB | 1.14 MiB/s   Writing objects:  98% (54/55), 1.07 MiB | 1.14 MiB/s   Writing objects:  98% (54/55), 2.00 MiB | 805.00 KiB/s   Writing objects: 100% (55/55), 2.00 MiB | 805.00 KiB/s   Writing objects: 100% (55/55), 2.03 MiB | 819.00 KiB/s, done.
+Total 55 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:  13% (2/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  46% (7/15)   [Kremote: Resolving deltas:  53% (8/15)   [Kremote: Resolving deltas:  60% (9/15)   [Kremote: Resolving deltas:  66% (10/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 9 local objects.[K
+To https://github.com/gtlron/honors_thesis.git
+   8c8cdad..f7c1cea  master -> master
+]0;~/Desktop/thesisTianlangAir:thesis GTL$ 
